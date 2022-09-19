@@ -1,0 +1,42 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+.wrap {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+.wrap video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+.title {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  color: white;
+  mix-blend-mode: multiply;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.title h1 {
+  font-size: 300px;
+}
+.title p {
+  font-size: 40px;
+}
+.title a {
+  color: white;
+  cursor: pointer;
+}
